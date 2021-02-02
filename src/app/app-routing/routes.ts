@@ -7,9 +7,11 @@ import { HomeComponent } from '../home/home.component';
 import { AboutComponent } from '../about/about.component';
 import { ContactComponent } from '../contact/contact.component';
 
-// Novigation paths
+/* Novigation paths
+Set up routes constant where you define your routes */
 export const routes: Routes = [
     {path: 'home', component: HomeComponent},
     {path: 'menu', component: MenuComponent},
+    {path: 'contactus', component: ContactComponent},
     {path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
